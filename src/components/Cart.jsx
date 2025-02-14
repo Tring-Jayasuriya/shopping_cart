@@ -1,10 +1,10 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { useSelector } from 'react-redux'
 import '../App.css'
 
 export const Cart = () => {
 
-  const cartItems=useSelector((state)=>state.cart)
+  const cartItems=useSelector((state)=>(state.Cart))
   console.log(cartItems);
 
   return (

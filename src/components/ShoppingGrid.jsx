@@ -50,10 +50,6 @@ export const ShoppingGrid = () => {
 
         </div>
 
-
-
-        
-
     </div>
   )
 
